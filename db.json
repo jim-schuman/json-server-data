@@ -3,54 +3,232 @@
     {
       "id": "HeroAslaug",
       "name": "Aslaug",
-      "description": "warrior queen"
+      "description": "warrior queen",
+      "weapon": 10,
+      "skills": [
+        1,
+        3
+      ],
+      "spells": []
     },
     {
       "id": "HeroBjorn",
       "name": "Bjorn Ironside",
-      "description": "king of 9th century Sweden"
+      "description": "king of 9th century Sweden",
+      "weapon": 1,
+      "skills": [
+        1,
+        3
+      ],
+      "spells": []
     },
     {
       "id": "HeroIvar",
       "name": "Ivar the Boneless",
-      "description": "commander of the Great Heathen Army"
+      "description": "commander of the Great Heathen Army",
+      "weapon": 5,
+      "skills": [
+        1,
+        3
+      ],
+      "spells": []
     },
     {
       "id": "HeroLagertha",
       "name": "Lagertha the Shieldmaiden",
-      "description": "aka Hlaðgerðr"
+      "description": "aka Hlaðgerðr",
+      "weapon": 2,
+      "skills": [
+        1,
+        3
+      ],
+      "spells": []
     },
     {
       "id": "HeroRagnar",
       "name": "Ragnar Lothbrok",
-      "description": "aka Ragnar Sigurdsson"
+      "description": "aka Ragnar Sigurdsson",
+      "weapon": 2,
+      "skills": [
+        4
+      ],
+      "spells": []
     },
     {
       "id": "HeroThora",
       "name": "Thora Town-hart",
-      "description": "daughter of Earl Herrauðr of Götaland"
+      "description": "daughter of Earl Herrauðr of Götaland",
+      "weapon": 7,
+      "skills": [
+        1,
+        2,
+        3
+      ],
+      "spells": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
     }
   ],
   "villains": [
     {
       "id": "VillainMadelyn",
       "name": "Madelyn",
-      "description": "the cat whisperer"
+      "description": "the cat whisperer",
+      "weapon": 7,
+      "skills": [
+        1,
+        2,
+        3
+      ],
+      "spells": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
     },
     {
       "id": "VillainHaley",
       "name": "Haley",
-      "description": "pen wielder"
+      "description": "pen wielder",
+      "weapon": null,
+      "skills": [
+        3
+      ],
+      "spells": []
     },
     {
       "id": "VillainElla",
       "name": "Ella",
-      "description": "fashionista"
+      "description": "fashionista",
+      "weapon": null,
+      "skills": [
+        3
+      ],
+      "spells": []
     },
     {
       "id": "VillainLandon",
       "name": "Landon",
-      "description": "Mandalorian mauler"
+      "description": "Mandalorian mauler",
+      "weapon": 6,
+      "skills": [],
+      "spells": []
+    }
+  ],
+  "weapons": [
+    {
+      "id": 1,
+      "name": "Battle Axe",
+      "damage": "10x",
+      "maneuverability ": 3
+    },
+    {
+      "id": 2,
+      "name": "Broadsword",
+      "damage": "2x",
+      "maneuverability ": 7
+    },
+    {
+      "id": 3,
+      "name": "Great Broadsword",
+      "damage": "8x",
+      "maneuverability ": 5
+    },
+    {
+      "id": 4,
+      "name": "Hatchet",
+      "damage": "4x",
+      "maneuverability ": 9
+    },
+    {
+      "id": 5,
+      "name": "Morning Star",
+      "damage": "8x",
+      "maneuverability ": 3
+    },
+    {
+      "id": 6,
+      "name": "Flail",
+      "damage": "6x",
+      "maneuverability ": 3
+    },
+    {
+      "id": 7,
+      "name": "Staff",
+      "damage": "4x",
+      "maneuverability ": 6
+    },
+    {
+      "id": 8,
+      "name": "Dagger",
+      "damage": "2x",
+      "maneuverability ": 10
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "name": "melee"
+    },
+    {
+      "id": 2,
+      "name": "magic"
+    },
+    {
+      "id": 3,
+      "name": "speech"
+    }
+  ],
+  "spells": [
+    {
+      "id": 1,
+      "name": "Freeze",
+      "description": "Renders enemy unable to move.",
+      "damage": 0
+    },
+    {
+      "id": 2,
+      "name": "Fade",
+      "description": "Depletes enemy energy and strength for a period",
+      "damage": 4
+    },
+    {
+      "id": 3,
+      "name": "Blind",
+      "description": "Renders enemy blind for a period of time",
+      "damage": 4
+    },
+    {
+      "id": 4,
+      "name": "Sleep",
+      "description": "Puts enemy to sleep",
+      "damage": 0
+    },
+    {
+      "id": 5,
+      "name": "Fear",
+      "description": "Strikes fear in the enemy for a period of time",
+      "damage": 0
+    },
+    {
+      "id": 6,
+      "name": "Influence",
+      "description": "Forces enemy to suggested thought for a period of time",
+      "damage": 0
+    },
+    {
+      "id": 7,
+      "name": "Death",
+      "description": "Renders enemy dead",
+      "damage": 10
     }
   ]
 }
